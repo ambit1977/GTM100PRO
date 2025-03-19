@@ -37,9 +37,9 @@ GTMはGoogleが定期的にアップデートを行っており、新機能の�
 Googleは、GTMの新機能や変更点を「リリースノート」で公開しています。
 
 ✅ **Google Tag Managerのリリースノート:**  
-👉 [https://developers.google.com/tag-platform/tag-manager/changelog](https://developers.google.com/tag-platform/tag-manager/changelog)
+ [https://developers.google.com/tag-platform/tag-manager/changelog](https://developers.google.com/tag-platform/tag-manager/changelog)
 
-📌 **チェックポイント:**
+ **チェックポイント:**
 - **「最近の変更」** に新機能や改善点が記載されている。
 - **「Deprecated（非推奨）」** になった機能がないか確認する。
 - **「Upcoming Changes（今後の変更）」** に注意し、今後の仕様変更に備える。
@@ -51,12 +51,12 @@ Googleは、GTMの新機能や変更点を「リリースノート」で公開�
 Googleは、GTMやGoogleタグ関連の重要な情報をブログでも発信しています。
 
 ✅ **GTM公式ブログ:**  
-👉 [https://blog.google/products/marketingplatform/tag-manager/](https://blog.google/products/marketingplatform/tag-manager/)
+ [https://blog.google/products/marketingplatform/tag-manager/](https://blog.google/products/marketingplatform/tag-manager/)
 
 ✅ **Google Developers Blog（開発者向け情報）:**  
-👉 [https://developers.googleblog.com/](https://developers.googleblog.com/)
+ [https://developers.googleblog.com/](https://developers.googleblog.com/)
 
-📌 **チェックポイント:**
+ **チェックポイント:**
 - **GTMの新機能がどのように使えるのか、具体的な活用方法が書かれている。**
 - **Googleの新しい計測手法（例：Consent Mode、Enhanced Conversionsなど）を事前に学べる。**
 - **広告計測やGA4との連携など、マーケティング全体のトレンドをキャッチできる。**
@@ -67,11 +67,11 @@ Googleは、GTMやGoogleタグ関連の重要な情報をブログでも発信�
 
 #### **1. Consent Mode v2（コンセントモードの強化）**
 
-🔹 **何が変わった？**
+ **何が変わった？**
 - GDPR（EUのデータ保護規則）対応が強化され、**Cookieを使えない環境でもより正確な計測が可能に！**
 - Google広告とGA4の計測がよりプライバシーに配慮した形で動作。
 
-🔹 **対応方法:**
+ **対応方法:**
 - **GTMの「Consent Mode」設定を最新バージョン（v2）にアップデート。**
 - **GoogleのCMP（同意管理プラットフォーム）との連携を確認する。**
 
@@ -81,11 +81,11 @@ Googleは、GTMやGoogleタグ関連の重要な情報をブログでも発信�
 
 #### **2. Enhanced Conversions（強化コンバージョン）**
 
-🔹 **何が変わった？**
+ **何が変わった？**
 - **ファーストパーティデータ（メールアドレスや電話番号）を暗号化して送信し、コンバージョン計測の精度を向上！**
 - **iOSのプライバシー制限（ATT）や、サードパーティCookieの廃止の影響を軽減。**
 
-🔹 **対応方法:**
+ **対応方法:**
 - **Google広告のコンバージョン設定で「強化コンバージョン」を有効化する。**
 - **GTM経由でファーストパーティデータを送信できるよう設定する。**
 
@@ -101,7 +101,7 @@ Googleは、GTMやGoogleタグ関連の重要な情報をブログでも発信�
 
 GTMでは、新しいタグのテンプレートが追加されることがあります。
 
-📌 **確認手順:**
+ **確認手順:**
 1. GTMの「タグ」メニューを開く。
 2. 「タグの設定」→「タグテンプレートギャラリー」をチェック。
 3. **新しいタグのテンプレートが追加されていないか確認！**
@@ -114,7 +114,7 @@ GTMでは、新しいタグのテンプレートが追加されることがあ�
 
 GTMの **「カスタムテンプレート」** 機能を使うと、独自のタグを作成できます。
 
-📌 **活用例:**
+ **活用例:**
 - **「GTMテンプレートギャラリー」にない広告ツールのタグを追加。**
 - **開発者と協力して、より柔軟なカスタムタグを作成。**
 
